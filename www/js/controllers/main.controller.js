@@ -1,13 +1,26 @@
 app.controller("mainCtrl",
-  function($scope,$rootScope, $location, $listServices, $httpServices, $localStorage) {
+  function($scope, $rootScope, $state, $location, $listServices, $httpServices, $localStorage) {
 
-    var path='http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&q=http://www.engadget.com/rss.xml';
-    // var path='http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&q=http://blog.ionic.io/feed/';
-    $httpServices.getHttpLst(path).then(function (data) {
-      $listServices.printLst(data)
-      $scope.items = data.responseData.feed.entries;
-      // $scope.data;
-    });
+    // function test(){
+    //   return 10
+    // }
+    //
+    //
+    // $scope.test = test();
+    // $scope.path = $rootScope.baseURL + 'http://www.feedforall.com/sample.xml'
+    $scope.feedLst = [];
+    $scope.url = 'http://www.feedforall.com/sample.xml';
+
+    $scope.submit = function(request){
+      $listServices.printLst(request)
+      $httpServices.getHttpLst($rootScope.baseURL + request.path).then(function (data) {
+        // $listServices.printLst(data)
+        $scope.items = data.responseData.feed.entries;
+        $scope.feedLst.push(request);
+      });
+    }
+
+
 
 
 });
