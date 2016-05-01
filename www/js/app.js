@@ -1,21 +1,14 @@
 
 var app = angular.module('app', ['ionic'])
 
-app.run(function($ionicPlatform, $rootScope) {
+app.run(
+  function($ionicPlatform, $rootScope, $localStorage ) {
   $rootScope.baseURL='http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&q=';
-  $ionicPlatform.ready(function() {
-    if(window.cordova && window.cordova.plugins.Keyboard) {
-      // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-      // for form inputs)
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+    var feedLst = $localStorage.getObject('feedLst');
+    $rootScope.feedLst =  [];
+    if(feedLst.length > 0){
+      $rootScope.feedLst =  feedLst;
+    }
 
-      // Don't remove this line unless you know what you are doing. It stops the viewport
-      // from snapping when text inputs are focused. Ionic handles this internally for
-      // a much nicer keyboard experience.
-      cordova.plugins.Keyboard.disableScroll(true);
-    }
-    if(window.StatusBar) {
-      StatusBar.styleDefault();
-    }
-  });
+
 });

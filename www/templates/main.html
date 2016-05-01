@@ -15,14 +15,24 @@
                 type="text" placeholder="feed">
             </label>
             <button class="button button-small"
-                    ng-click="submit(request)">Submit</button>
+                    ng-click="submit(request, true)">Submit</button>
           </div>
 
         </div>
-        <div class="list" ng-repeat="feed in feedLst track by $index">
-            <div class="item item-text-wrap">
-              <p>{{feed.path}}</p>
-            </div>
+        <div class="list" >
+          <div class="item item-button-right"
+               ng-repeat="feed in feedLst | orderBy:'-date'"
+               ng-init="request.path=feed.feedUrl"
+               ng-model="request.path"
+               ng-click="submit(request, false)"
+               class="item item-button-right">
+            {{feed.title}}
+            <button class="button button-clear"
+              ng-click="remove()">
+              <i class="icon ion-ios-close-empty"></i>
+            </button>
+          </div>
+
         </div>
 
       </div>
@@ -31,7 +41,7 @@
           <ion-item
             class="item item-text-wrap"
             ng-repeat="item in items track by $index">
-            <h2>{{item.title}}</h2>
+            <h2>{{item.title}} - {{ item.publishedDate}}</h2>
             <span ng-bind-html="item.content"></span>
 
           </ion-item>
