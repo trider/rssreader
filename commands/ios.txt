@@ -1,0 +1,11 @@
+nano ~/.bash_profile
+
+"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include"
+
+rm -rf ~/.cordova
+
+ /usr/bin/nscurl --ats-diagnostics --verbose http://mycommunityapi.azurewebsites.net
+
+ios-deploy --debug --bundle /Users/jonnygold/tnmClient/platforms/ios/build/device/TrakNOW.app
+
+ionic build ios --device;ios-deploy --debug --bundle /Users/jonnygold/tnmClient/platforms/ios/build/device/TrakNOW.app

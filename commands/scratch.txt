@@ -1,0 +1,7 @@
+The app displays a list of all the items in the draft document
+The user can
+Filter the list to locate items by selected criteria
+Sort the list according to selected field
+For each item in the selected document:
+The app must display a list of the relevant fields.
+Populated fields must display the correct information

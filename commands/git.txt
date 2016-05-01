@@ -1,0 +1,21 @@
+Clone repo: git remote add origin https://sensorydev.visualstudio.com/DefaultCollection/WebAppsGit/_git/tnmClient
+
+Stage files: git add -A -f .
+
+Commit: git commit -a -m 'Ver 0.2.7.1: '
+
+Pull: git pull origin Ver_0.2.7_linea
+
+Push: git push origin [branch name]
+
+Get remote info: git remote -v
+
+Create new branch: git checkout -b [branch name]
+
+Merge branch: git checkout master, git merge [branch name]
+
+Delete local branch: ≈ [branch name]
+
+Delete remote: git push origin --delete [branch name]
+
+Tag branch: git tag -a [tag] -m "Comment"

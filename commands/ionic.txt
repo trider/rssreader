@@ -1,0 +1,22 @@
+ionic serve --address 192.168.2.107 -c
+
+ionic serve -a 192.168.2.18 -p 8200 -c
+
+protractor protactor.config.js
+
+karma start tests/mc.conf.js
+
+ionic plugin add https://github.com/apache/cordova-plugin-whitelist.git
+
+cordova plugin add cordova-plugin-whitelist@1.0.0
+
+cordova plugin add https://github.com/rossmartin/PushPlugin.git
+
+ionic plugin add https://github.com/phonegap-build/PushPlugin.git#2.4.0
+
+cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyDNqOqzpF55RAHgWKHWw-aQwFKN9HBajIw" --variable API_KEY_FOR_IOS="AIzaSyC36jOKPBkY23S5YPmzbVLOrUVIHBibwfE"
+
+
+
+
+
