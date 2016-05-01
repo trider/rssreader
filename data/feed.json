@@ -1,0 +1,520 @@
+{
+  "data": {
+    "responseData": {
+      "feed": {
+        "feedUrl": "http://www.engadget.com/rss.xml",
+        "title": "Engadget RSS Feed",
+        "link": "http://www.engadget.com/rss.xml",
+        "author": "",
+        "description": "Engadget is a web magazine with obsessive daily coverage of everything new in gadgets and consumer electronics",
+        "type": "rss20",
+        "entries": [
+          {
+            "title": "Samsung app helps premature babies hear their mothers",
+            "link": "http://www.engadget.com/2016/05/01/samsung-voice-of-life-for-premature-babies/",
+            "author": "Jon Fingas",
+            "publishedDate": "Sat, 30 Apr 2016 21:25:00 -0700",
+            "contentSnippet": "For babies, the sound of their mother&#039;s voice isn&#039;t just comforting -- it can be the key to healthy brain ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3867x2578+0+0/resize/1400x933!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/b3b85f23a43527a8cbeb20e26c20a805/201083946/185063038.jpg\">For babies, the sound of their mother&#39;s voice isn&#39;t just comforting -- it can be the key to healthy brain development.  That&#39;s not easy to manage for premature babies stuck in incubators, though, and Samsung thinks smartphones might help out.  Its Vo...",
+            "categories": [
+              "app",
+              "baby",
+              "gear",
+              "health",
+              "medicine",
+              "mobile",
+              "premature",
+              "samsung",
+              "science",
+              "smartphone",
+              "video",
+              "voiceoflife"
+            ]
+          },
+          {
+            "title": "'Call of Duty' teaser hints at a bleak sci-fi world",
+            "link": "http://www.engadget.com/2016/04/30/call-of-duty-infinite-warfare-teaser/",
+            "author": "Jon Fingas",
+            "publishedDate": "Sat, 30 Apr 2016 19:36:00 -0700",
+            "contentSnippet": "The Call of Duty series has been embracing dark sci-fi settings in recent games, and that trend doesn&#039;t seem to be slowing ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/639fcdac262f1cba455076830c447200/203759305/call-of-duty-infinite-warfare-teaser.jpg\">The Call of Duty series has been embracing dark sci-fi settings in recent games, and that trend doesn&#39;t seem to be slowing down any time soon. Activision has posted a teaser for Call of Duty: Infinite Warfare that gives you a hint as what&#39;s coming, a...",
+            "categories": [
+              "activision",
+              "av",
+              "callofduty",
+              "callofdutyinfinitewarfare",
+              "gaming",
+              "infinitewarfare",
+              "video"
+            ]
+          },
+          {
+            "title": "Uber settlement protects travel with your guide dog",
+            "link": "http://www.engadget.com/2016/04/30/uber-proposes-guide-dog-settlement/",
+            "author": "Jon Fingas",
+            "publishedDate": "Sat, 30 Apr 2016 17:37:00 -0700",
+            "contentSnippet": "Uber has made some effort to accommodate passengers with special needs, but it certainly hasn&#039;t been perfect: in 2014, the ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3008x2000+0+0/resize/1400x931!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/3a2daa9cff3e6517f7e7f7f9223bd110/201703677/93394601.jpg\">Uber has made some effort to accommodate passengers with special needs, but it certainly hasn&#39;t been perfect: in 2014, the National Federation of the Blind&#39;s California branch sued Uber for denying rides to poor-sighted passengers with guide dogs and...",
+            "categories": [
+              "blind",
+              "blindness",
+              "culture",
+              "guidedog",
+              "internet",
+              "lawsuit",
+              "nationalfederationoftheblind",
+              "ridesharing",
+              "serviceanimals",
+              "services",
+              "settlement",
+              "transportation",
+              "uber"
+            ]
+          },
+          {
+            "title": "Tech doesn't work with children and animals",
+            "link": "http://www.engadget.com/2016/04/30/tech-doesnt-work-with-children-and-animals/",
+            "author": "Timothy J. Seppala",
+            "publishedDate": "Sat, 30 Apr 2016 16:04:00 -0700",
+            "contentSnippet": "It&#039;s a tale as old as time: Kids and animals don&#039;t mix with tech. Whether it&#039;s little Billy turning your new ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3867x2578+0+0/resize/1400x933!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/7cf6dbdd1fa4cf12d0c2bed9ad3b290a/203758333/153030424.jpg\">It&#39;s a tale as old as time: Kids and animals don&#39;t mix with tech. Whether it&#39;s little Billy turning your new flatscreen on and off until it burns out or Rover chewing through another pair of fancy headphones, you&#39;d think we&#39;d know better by now that...",
+            "categories": [
+              "animals",
+              "cern",
+              "culture",
+              "internet",
+              "kids",
+              "largehadroncollider",
+              "lhc",
+              "morningedition",
+              "nationalpublicradio",
+              "npr",
+              "weasel"
+            ]
+          },
+          {
+            "title": "US surveillance court didn't reject a single spy order last year",
+            "link": "http://www.engadget.com/2016/04/30/fisc-allowed-all-surveillance-requests-in-2015/",
+            "author": "Jon Fingas",
+            "publishedDate": "Sat, 30 Apr 2016 14:32:00 -0700",
+            "contentSnippet": "For years, critics have claimed that the US&#039; Foreign Intelligence Surveillance Court is a pushover: it&#039;s allegedly so ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3744x2496+0+0/resize/1400x933!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/66135d44890febf299d8144deca3f6cb/203758874/8e60bcc9d8074b7995d9c91739cd96ba.jpeg\">For years, critics have claimed that the US&#39; Foreign Intelligence Surveillance Court is a pushover: it&#39;s allegedly so reluctant to reject spying orders that it&#39;s little more than a speed bump for the FBI and NSA.  True or not, that reputation isn&#39;t a...",
+            "categories": [
+              "culture",
+              "departmentofjustice",
+              "eavesdropping",
+              "fbi",
+              "fisc",
+              "foreignintelligencesurveillancecourt",
+              "government",
+              "internet",
+              "nsa",
+              "politics",
+              "security",
+              "spying",
+              "surveillance"
+            ]
+          },
+          {
+            "title": "Valve will ban Steam cheaters via their linked phone numbers",
+            "link": "http://www.engadget.com/2016/04/30/valve-anti-cheat-phone-number-ban/",
+            "author": "Timothy J. Seppala",
+            "publishedDate": "Sat, 30 Apr 2016 13:01:00 -0700",
+            "contentSnippet": "Valve knows that players cheating on Steam is a serious problem, and it&#039;s taking action to address that in a few new ways. ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/630x400+0+0/resize/1400x889!/format/jpg/quality/85/http://o.aolcdn.com/hss/storage/midas/2e20f5166ef18701f069c7559a20ed2b/203351062/steam_cheaters.jpg\">Valve knows that players cheating on Steam is a serious problem, and it&#39;s taking action to address that in a few new ways. One is offering a matchmaking service for Counter-Strike: Global Offensive that&#39;s only for folks who&#39;ve linked their phone numb...",
+            "categories": [
+              "cheaters",
+              "cheating",
+              "counterstrike",
+              "counterstrikeglobaloffensive",
+              "csgo",
+              "csgoprime",
+              "gaming",
+              "internet",
+              "pcgaming",
+              "prime",
+              "steam",
+              "valve",
+              "valveanticheat"
+            ]
+          },
+          {
+            "title": "Windows 95 on an Apple Watch is wonderfully impractical",
+            "link": "http://www.engadget.com/2016/04/30/apple-watch-running-windows-95/",
+            "author": "Jon Fingas",
+            "publishedDate": "Sat, 30 Apr 2016 11:28:00 -0700",
+            "contentSnippet": "The quest to put Windows 95 on seemingly everything just achieved one of its biggest -- or rather, smallest -- feats to date.  ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/fee914f50736050d86f51f1eefcfc214/203758781/apple-watch-windows-95.jpg\">The quest to put Windows 95 on seemingly everything just achieved one of its biggest -- or rather, smallest -- feats to date.  Nick Lee managed to get Microsoft&#39;s classic operating system running on an Apple Watch by modfiying a WatchKit app to load...",
+            "categories": [
+              "apple",
+              "applewatch",
+              "diy",
+              "emulation",
+              "emulator",
+              "gear",
+              "mod",
+              "personal computing",
+              "personalcomputing",
+              "smartwatch",
+              "video",
+              "wearable",
+              "wearables",
+              "windows95"
+            ]
+          },
+          {
+            "title": "Garmin's 'Varia Vision' headset is the Google Glass of cycling",
+            "link": "http://www.engadget.com/2016/04/30/garmin-varia-vision/",
+            "author": "Andrew Tarantola",
+            "publishedDate": "Sat, 30 Apr 2016 10:00:00 -0700",
+            "contentSnippet": "The thing about cycling is that it&#039;s only as complicated a pastime as you make it. An $80 Huffy performs the same basic ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/182c799a56e3232e6b1a7a5ebf07600d/203751941/Garmin+top+3.jpg\">The thing about cycling is that it&#39;s only as complicated a pastime as you make it. An $80 Huffy performs the same basic function as a carbon-fiber street racer costing 100 times more, just with a lesser degree of effectiveness. Similarly, you can go...",
+            "categories": [
+              "bicycling",
+              "computer",
+              "gadgetry",
+              "gadgets",
+              "garmin",
+              "gear",
+              "varia",
+              "vision"
+            ]
+          },
+          {
+            "title": "Six robots inspired by real-life animals",
+            "link": "http://www.engadget.com/2016/04/30/six-robots-inspired-by-real-life-animals/",
+            "author": "Inhabitat",
+            "publishedDate": "Sat, 30 Apr 2016 08:30:00 -0700",
+            "contentSnippet": "By Cat DiStasio\n\nMany scientific and engineering developments were lifted right out of nature, but none more so than robots ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/57e933487a315f99484f98646fb20219/203757464/e3dbedd4-e805-4867-8438-1a6b921de4e2-lede.jpg\">By Cat DiStasio\n\nMany scientific and engineering developments were lifted right out of nature, but none more so than robots built to act like real-life animals. Biomimicry is the term for innovations like these, which draw inspiration from the power...",
+            "categories": [
+              "biomimicry",
+              "bostondynamics",
+              "cheetah",
+              "column",
+              "gear",
+              "inhabitat",
+              "inhbatitat",
+              "makerfaire",
+              "nanoairvehicle",
+              "partner",
+              "robo-fish",
+              "robobee",
+              "robots",
+              "science",
+              "syndicated",
+              "walkingpod"
+            ]
+          },
+          {
+            "title": "Recommended Reading: Why can't we stream more black TV shows?",
+            "link": "http://www.engadget.com/2016/04/30/recommended-reading-4-30-16/",
+            "author": "Billy Steele",
+            "publishedDate": "Sat, 30 Apr 2016 07:00:00 -0700",
+            "contentSnippet": "\nWhy Are so Many Great\nBlack TV Shows Missing\nFrom Streaming Services?\nAlyssa Rosenberg,\nThe Washington Post\n\n\nStreaming ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/f1ae4a4ec16b5ea401dd5ed3ee45338a/203756425/93765279-ed.jpg\">\nWhy Are so Many Great\nBlack TV Shows Missing\nFrom Streaming Services?\nAlyssa Rosenberg,\nThe Washington Post\n\n\nStreaming services are great for providing a seemingly endless supply of movies and television shows. However, there are a ton of notable b...",
+            "categories": [
+              "culture",
+              "internet",
+              "recommendedreading",
+              "recreading"
+            ]
+          },
+          {
+            "title": "ICYMI: Barely hoverbiking, new hair dryer tech and more",
+            "link": "http://www.engadget.com/2016/04/30/icymi-barely-hoverbiking-new-hair-dryer-tech-and-more/",
+            "author": "Kerry Davis",
+            "publishedDate": "Sat, 30 Apr 2016 06:00:00 -0700",
+            "contentSnippet": "\n\nToday on In Case You Missed It: YouTuber Colin Furze teamed up with Ford to build a working hoverbike within just a few ...",
+            "content": "<img src=\"https://spthumbnails.5min.com/10392433/519621636_c_570_411.jpg\">\n\nToday on In Case You Missed It: YouTuber Colin Furze teamed up with Ford to build a working hoverbike within just a few weeks, from his shed. It runs off of two diesel engines so granted, it&#39;s probably not the most mass-production friendly item, bu...",
+            "categories": [
+              "aoloriginals",
+              "blowdr",
+              "bugs",
+              "conlinfurze",
+              "culture",
+              "curiosity",
+              "design",
+              "diy",
+              "do it yourself",
+              "doityourself",
+              "dyson",
+              "engadget",
+              "engadgetvideo",
+              "entertainment",
+              "gadgetry",
+              "gadgets",
+              "gear",
+              "green",
+              "hairdryer",
+              "hoverbike",
+              "icymi",
+              "incaseyoumissedit",
+              "insects",
+              "internet",
+              "jpl",
+              "levonbiss",
+              "mars",
+              "martians",
+              "nasa",
+              "oxforduniversity",
+              "photography",
+              "robots",
+              "science",
+              "space",
+              "supersonic",
+              "supersonichairdryer",
+              "transportation",
+              "video",
+              "wearables"
+            ]
+          },
+          {
+            "title": "Roaming within the EU has just become cheaper",
+            "link": "http://www.engadget.com/2016/04/30/eu-roaming-charge-caps/",
+            "author": "Jamie Rigg",
+            "publishedDate": "Sat, 30 Apr 2016 03:00:00 -0700",
+            "contentSnippet": "European decision-makers have been forcibly capping mobile roaming charges in the region for several years now. The last ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3000x1878+0+121/resize/1400x877!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/77da320aba7cd88c3cd96848b6f34f0a/200614321/170954966.jpg\">European decision-makers have been forcibly capping mobile roaming charges in the region for several years now. The last mandated reduction came into effect in July 2014, but today the European Commission has made calls, texts and megabytes that much...",
+            "categories": [
+              "culture",
+              "eu",
+              "europe",
+              "europeancommission",
+              "europeanunion",
+              "mobile",
+              "politics",
+              "roaming",
+              "roamingcharges"
+            ]
+          },
+          {
+            "title": "Watch a 360-degree video of SpaceX's rocket landing at sea",
+            "link": "http://www.engadget.com/2016/04/30/spacex-360-degree-rocket-landing/",
+            "author": "Mariella Moon",
+            "publishedDate": "Sat, 30 Apr 2016 00:47:00 -0700",
+            "contentSnippet": "If you&#039;ve ever had any doubt whether SpaceX&#039;s Falcon 9 really touched down on a barge, you should watch this YouTube ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/5f40b1a1ea1d9480186b96e0f0dc008d/203758221/falcon-9landing.jpg\">If you&#39;ve ever had any doubt whether SpaceX&#39;s Falcon 9 really touched down on a barge, you should watch this YouTube video. It shows a 360-degree view of the drone ship as the rocket was landing, which means you can drag the video around to watch it...",
+            "categories": [
+              "falcon9",
+              "rocket",
+              "science",
+              "space",
+              "spacex",
+              "video"
+            ]
+          },
+          {
+            "title": "Puma's robotic running companion can keep pace with Usain Bolt",
+            "link": "http://www.engadget.com/2016/04/30/puma-beatbot-running-companion/",
+            "author": "Timothy J. Seppala",
+            "publishedDate": "Fri, 29 Apr 2016 22:38:00 -0700",
+            "contentSnippet": "For some people, the RunKeeper coach&#039;s voice is enough to keep them motivated during a jog. Others need something physical ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/4955d9aeab77ae35b724d2a72aeeed00/203758128/3059417-poster-1280-puma-beatbot.jpg\">For some people, the RunKeeper coach&#39;s voice is enough to keep them motivated during a jog. Others need something physical to keep pace with. That&#39;s where Puma&#39;s BeatBot comes in. Developed by a NASA robotics engineer, a trio of MIT students and Puma...",
+            "categories": [
+              "arduino",
+              "beatbot",
+              "gear",
+              "gopro",
+              "massachusettsinstituteoftechnology",
+              "nasa",
+              "puma",
+              "robots",
+              "running",
+              "usainbolt",
+              "video"
+            ]
+          },
+          {
+            "title": "Xiaomi's smartwatch for kids costs less than $50",
+            "link": "http://www.engadget.com/2016/04/29/xiaomi-smartwatch-for-kids/",
+            "author": "Mariella Moon",
+            "publishedDate": "Fri, 29 Apr 2016 20:34:00 -0700",
+            "contentSnippet": "Look, Xiaomi&#039;s smartwatch for kids isn&#039;t anything revolutionary. It has features typically found in children&#039;s ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/f49654db64b6984d1f3dfdb5a10a48e7/203757998/xiaomi-kids-smartwatch01.jpg\">Look, Xiaomi&#39;s smartwatch for kids isn&#39;t anything revolutionary. It has features typically found in children&#39;s wearables, including the ability to make and receive calls and to track users&#39; whereabouts. The best thing about it, however, is its price:...",
+            "categories": [
+              "gear",
+              "smartwatch",
+              "wearables",
+              "xiaomi"
+            ]
+          },
+          {
+            "title": "Double Play: How sports games reach deeper into gamers' pockets",
+            "link": "http://www.engadget.com/2016/04/25/double-play-how-sports-games-reach-deeper-into-gamers-pockets",
+            "author": "Richard Starr",
+            "publishedDate": "Mon, 25 Apr 2016 14:20:00 -0700",
+            "contentSnippet": "\n\n*Editor&#039;s Note: This article is a guest-post from our Public Access community content section, where readers, commenters ...",
+            "content": "<img src=\"http://i.imgur.com/HexzDVp.jpg\">\n\n*Editor&#39;s Note: This article is a guest-post from our Public Access community content section, where readers, commenters and fans can all contribute stories on their thoughts, opinions and experiences on technology and how it has impacted with thei...",
+            "categories": []
+          },
+          {
+            "title": "Ask Alexa what's playing on SyFy",
+            "link": "http://www.engadget.com/2016/04/29/ask-alexa-whats-playing-on-syfy/",
+            "author": "David Lumb",
+            "publishedDate": "Fri, 29 Apr 2016 18:46:00 -0700",
+            "contentSnippet": "Amazon has been nudging third parties to make products that use its voice-controlled software, Alexa, but it&#039;s also ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/4752x3156+0+0/resize/1400x930!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/468b13cac4fa04d5d2d4e7bddecc131/203509923/c7a73b7569704ef3af8b38fcbc63827a.jpeg\">Amazon has been nudging third parties to make products that use its voice-controlled software, Alexa, but it&#39;s also encouraging others to specially interact by making custom &#39;Alexa skills&#39;. Today, the SyFy network announced that it is the first enter...",
+            "categories": [
+              "alexa",
+              "amazon",
+              "entertainment",
+              "gadgetry",
+              "gadgets",
+              "gear",
+              "syfy"
+            ]
+          },
+          {
+            "title": "The Public Access Weekly: The cool breeze",
+            "link": "http://www.engadget.com/2016/04/29/the-public-access-weekly-the-cool-breeze",
+            "author": "Amber Bouman",
+            "publishedDate": "Fri, 29 Apr 2016 11:30:00 -0700",
+            "contentSnippet": "\nThis week, Beyonce released a visual album called Lemonade, Babymetal partnered with Super Mario Maker (to the glee of many ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/8d4b6d16b2f61900104228d7a9080a2d/203746938/pa-weekly-logo.jpg\">\nThis week, Beyonce released a visual album called Lemonade, Babymetal partnered with Super Mario Maker (to the glee of many Engadget staffers), thousands if copies of Uncharted 4 were stolen and we got the first glimpses of the Snowden trailer.",
+            "categories": []
+          },
+          {
+            "title": "Delta is rolling out RFID luggage tags by the end of summer",
+            "link": "http://www.engadget.com/2016/04/29/delta-rfid-luggage-tags/",
+            "author": "Andrew Dalton",
+            "publishedDate": "Fri, 29 Apr 2016 16:48:00 -0700",
+            "contentSnippet": "In an honorable attempt to make air travel slightly less terrible, Delta announced a new program this week that will track of ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/4200x2724+0+0/resize/1400x908!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/2b7db1e4ae6eded95a79778c99ad6ee5/203757916/163291646.jpg\">In an honorable attempt to make air travel slightly less terrible, Delta announced a new program this week that will track of checked baggage via paper RFID tags.",
+            "categories": [
+              "air travel",
+              "airlines",
+              "culture",
+              "delta",
+              "design",
+              "luggage",
+              "rfid",
+              "transportation"
+            ]
+          },
+          {
+            "title": "Wireless carriers will adopt a new real-time text protocol by December 2017",
+            "link": "http://www.engadget.com/2016/04/29/fcc-real-time-text-proposal-dec-2017/",
+            "author": "Nathan Ingraham",
+            "publishedDate": "Fri, 29 Apr 2016 15:52:00 -0700",
+            "contentSnippet": "The FCC is ready to adopt a proposal that&#039;ll bring a new protocol to wireless networks to help people with disabilities ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3000x1915+0+0/resize/1400x894!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/8491513b9a0fda038f5feef993fc3dee/203757911/e7cd5f5a21264c7ea194927b495788f0.jpeg\">The FCC is ready to adopt a proposal that&#39;ll bring a new protocol to wireless networks to help people with disabilities communicate. It&#39;s called real-time text (RTT) and will be a replacement for the aging teletypwriter (TTY) devices that let users t...",
+            "categories": [
+              "fcc",
+              "gear",
+              "politics",
+              "realtimetext",
+              "rtt",
+              "services",
+              "tty"
+            ]
+          },
+          {
+            "title": "Scientists use 'Moth Radio Hour' to map meaning across the brain",
+            "link": "http://www.engadget.com/2016/04/29/brain-map-meaning-language-complex-moth-radio-hour/",
+            "author": "Jessica Conditt",
+            "publishedDate": "Fri, 29 Apr 2016 15:04:00 -0700",
+            "contentSnippet": "Researchers at the University of California, Berkeley took on the complex task of mapping meaning along the cerebral cortex, ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/12e483a3040ea86a08505683adf5d177/203757781/Screen+Shot+2016-04-29+at+2.22.26+PM.png\">Researchers at the University of California, Berkeley took on the complex task of mapping meaning along the cerebral cortex, the thin membrane that stretches across the entire brain, and their results suggest language is much more complex than previo...",
+            "categories": [
+              "brain",
+              "brainmapping",
+              "cerebralcortex",
+              "language",
+              "meaning",
+              "medicine",
+              "science"
+            ]
+          },
+          {
+            "title": "Hulu is adapting Margaret Atwood's 'The Handmaid's Tale'",
+            "link": "http://www.engadget.com/2016/04/29/hulu-is-adapting-margaret-atwoods-the-handmaids-tale/",
+            "author": "Devindra Hardawar",
+            "publishedDate": "Fri, 29 Apr 2016 14:35:00 -0700",
+            "contentSnippet": "Taking a cue from Netflix, Hulu isn&#039;t slowing down with its original programming. Today, the streaming service announced ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/fbca1ebbe94e4ebcca4f6583e65c6aaf/203757831/43685485535649979db08e88ecb4c6a3-ed.jpg\">Taking a cue from Netflix, Hulu isn&#39;t slowing down with its original programming. Today, the streaming service announced that it&#39;s ordered a full series adaptation of The Handmaid&#39;s Tale, Margaret Atwood&#39;s seminal sci-fi novel. It centers on a totali...",
+            "categories": [
+              "av",
+              "culture",
+              "elisabethmoss",
+              "entertainment",
+              "hulu",
+              "margaretatwood",
+              "thehandmaidstale"
+            ]
+          },
+          {
+            "title": "Judge rules for Fitbit in patent dispute with Jawbone",
+            "link": "http://www.engadget.com/2016/04/29/judge-rules-for-fitbit-in-patent-dispute-with-jawbone/",
+            "author": "David Lumb",
+            "publishedDate": "Fri, 29 Apr 2016 13:50:00 -0700",
+            "contentSnippet": "Fitbit just won a legal ruling invalidating the patents Jawbone was using to block it from importing its foreign-made fitness ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/12111cb3e6f1bff5ece277c5f31d0ad1/203351219/Fitbit+Alta+gallery+1.jpg\">Fitbit just won a legal ruling invalidating the patents Jawbone was using to block it from importing its foreign-made fitness bands to the US. The ruling reduces the chance for Fitbit to face an import ban from the US International Trade Commission,...",
+            "categories": [
+              "corporateespionage",
+              "fitbit",
+              "fitnesstracker",
+              "gadgetry",
+              "gadgets",
+              "gear",
+              "jawbone",
+              "lawsuit",
+              "patentdispute"
+            ]
+          },
+          {
+            "title": "Celebrate 50 years of 'Star Trek' at NYC's Intrepid museum",
+            "link": "http://www.engadget.com/2016/04/29/celebrate-50-years-of-star-trek-at-nycs-intrepid-museum/",
+            "author": "David Lumb",
+            "publishedDate": "Fri, 29 Apr 2016 12:35:00 -0700",
+            "contentSnippet": "To celebrate the 50th anniversary of boldly going where no-one has gone before, the Intrepid Sea, Air &amp;amp; Space museum in ...",
+            "content": "<img src=\"http://o.aolcdn.com/hss/storage/midas/f3a084d5a5a53349c24935861ac3398f/203756906/IntrepidEnterprise.jpg\">To celebrate the 50th anniversary of boldly going where no-one has gone before, the Intrepid Sea, Air &amp;amp; Space museum in NYC will host &quot;Star Trek: The Starfleet Academy Experience.&quot; From July 8 to October 31, you too can explore the 26th century b...",
+            "categories": [
+              "entertainment",
+              "gadgetry",
+              "gadgets",
+              "intrepidmuseum",
+              "space",
+              "startrek"
+            ]
+          },
+          {
+            "title": "Google patents smart lenses you inject into your eyes",
+            "link": "http://www.engadget.com/2016/04/29/google-patent-injectable-smart-lenses/",
+            "author": "Andrew Dalton",
+            "publishedDate": "Fri, 29 Apr 2016 12:12:00 -0700",
+            "contentSnippet": "Google Glass may have been too clunky to succeed in its original version, but the search giant will find its way into your ...",
+            "content": "<img src=\"http://o.aolcdn.com/dims-shared/dims3/GLOB/crop/3600x2510+0+0/resize/1400x976!/format/jpg/quality/85/http://hss-prod.hss.aol.com/hss/storage/midas/d1a8d1adb4dd796281bc887a7b759b71/203756703/171479996.jpg\">Google Glass may have been too clunky to succeed in its original version, but the search giant will find its way into your eyeballs one way or another. According to a new patent filing, the company has devised a method to inject a device directly int...",
+            "categories": [
+              "gadgetry",
+              "gadgets",
+              "gear",
+              "google",
+              "intra-ocular",
+              "medicine",
+              "science",
+              "wearables"
+            ]
+          }
+        ]
+      }
+    },
+    "responseDetails": null,
+    "responseStatus": 200
+  },
+  "status": 200,
+  "config": {
+    "method": "GET",
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "url": "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&q=http://www.engadget.com/rss.xml",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    }
+  },
+  "statusText": "OK"
+}

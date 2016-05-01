@@ -1,4 +1,4 @@
-app.service('$localstorage', ['$window', function($window) {
+app.service('$localStorage', ['$window', function($window) {
     return {
         set: function(key, value) {
             $window.localStorage[key] = value;
