@@ -1,0 +1,9 @@
+<ion-list class="list">
+  <ion-item
+    class="item item-text-wrap"
+    ng-repeat="item in items track by $index">
+    <h2>{{item.title}} - {{ item.publishedDate}}</h2>
+    <span ng-bind-html="item.content"></span>
+
+  </ion-item>
+</ion-list>

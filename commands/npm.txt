@@ -1,3 +1,0 @@
-$ brew update
-$ brew uninstall node
-$ brew install node

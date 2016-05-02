@@ -2,11 +2,319 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d295dd0e-bb90-439a-8a71-b7a8740e0889" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/data/feeds.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/directives/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/feedItem.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/android.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/bash.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/git.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/ionic.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/ios.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/npm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commands/scratch.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ios/CDVLogger.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ios/CDVLogger.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ubuntu/console.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/ubuntu/console.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/src/wp/DebugConsole.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/www/console-via-logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-console/www/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/android/Device.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/blackberry10/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/browser/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/firefoxos/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ios/CDVDevice.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ios/CDVDevice.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/osx/CDVDevice.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/osx/CDVDevice.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/tizen/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ubuntu/device.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ubuntu/device.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/ubuntu/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/windows/DeviceProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/src/wp/Device.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-device/www/device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/android/SplashScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/blackberry10/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVSplashScreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVSplashScreen.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVViewController+SplashScreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ios/CDVViewController+SplashScreen.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/tizen/SplashScreenProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ubuntu/splashscreen.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/ubuntu/splashscreen.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/ResolutionHelper.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest.xcworkspace/xcshareddata/xcschemes/CordovaLib.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/ImageNameTestDelegates.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/project.xcworkspace/xcshareddata/CDVSplashScreenTest.xccheckout" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLib.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenTest.xcodeproj/xcshareddata/xcschemes/CDVSplashScreenLibTests.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/splashscreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/www/windows/SplashScreenProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/de/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/es/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/fr/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/it/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ja/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ko/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/pl/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/ru/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/doc/zh/index.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/android/StatusBar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/browser/statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/windows/StatusBarProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/src/wp/StatusBar.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/tests/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-statusbar/www/statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/NOTICE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/RELEASENOTES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/de/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/es/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/fr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/it/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ja/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/ko/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/pl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/doc/zh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/cordova-plugin-whitelist/src/android/WhitelistPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/android/IonicKeyboard.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/.cproject" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/libKeyboard.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/json_reader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/json_value.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/json_writer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/plugin.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/public/tokenizer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/CallKeyboard.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/Logger.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/keyboard_js.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/device/src/keyboard_ndk.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/autolink.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/features.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/forwards.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/json.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/reader.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/value.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json/writer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_batchallocator.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_internalarray.inl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_internalmap.inl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_reader.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_value.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_valueiterator.inl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/json_writer.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/plugin.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/plugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/tokenizer.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/public/tokenizer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/libKeyboard.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_reader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_value.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/json_writer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/plugin.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/public/tokenizer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/CallKeyboard.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/Logger.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/keyboard_js.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/simulator/src/keyboard_ndk.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/Logger.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/Logger.hpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_js.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_js.hpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_ndk.cpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/blackberry10/native/src/keyboard_ndk.hpp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/IonicKeyboard.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/IonicKeyboard.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/UIWebViewExtension.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/ios/UIWebViewExtension.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/src/windows/KeyboardProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/www/android/keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/ionic-plugin-keyboard/www/ios/keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/splash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scss/ionic.app.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/data/feed.json" afterPath="$PROJECT_DIR$/www/data/feed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/main.controller.js" afterPath="$PROJECT_DIR$/www/js/controllers/main.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services/list.services.js" afterPath="$PROJECT_DIR$/www/js/services/list.services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services/localstorage.services.js" afterPath="$PROJECT_DIR$/www/js/services/localstorage.services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/main.html" afterPath="$PROJECT_DIR$/www/templates/main.html" />
     </list>
     <ignored path="rssreader.iws" />
@@ -27,103 +335,105 @@
     <favorites_list name="rssreader" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53238547">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/templates/main.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
-                  <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/js/config.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#46#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/js/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="MarkdownPreviewEditor">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.controller.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/www/js/controllers/main.controller.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#566#1101#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="feed.json" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/www/data/feed.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/www/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="complaints.tests.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/complaints.tests.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feedItem.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/feedItem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feeds.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/data/feeds.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="47" column="42" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/controllers/main.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="directives.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/directives/directives.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/services/list.services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localstorage.services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/services/localstorage.services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,9 +450,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/www/js/config.js" />
-        <option value="$PROJECT_DIR$/www/js/services/localstorage.services.js" />
         <option value="$PROJECT_DIR$/data/feed.json.js" />
-        <option value="$PROJECT_DIR$/www/js/services/list.services.js" />
         <option value="$PROJECT_DIR$/www/js/services/http.service.js" />
         <option value="$PROJECT_DIR$/www/js/services/http.services.js" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -155,8 +463,13 @@
         <option value="$PROJECT_DIR$/tests/specs/controller.tests.js" />
         <option value="$PROJECT_DIR$/www/data/feed.js" />
         <option value="$PROJECT_DIR$/www/data/feed.json" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/js/services/localstorage.services.js" />
+        <option value="$PROJECT_DIR$/www/data/feeds.json" />
+        <option value="$PROJECT_DIR$/www/js/services/list.services.js" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/directives/directives.js" />
+        <option value="$PROJECT_DIR$/www/templates/feedItem.html" />
         <option value="$PROJECT_DIR$/www/templates/main.html" />
         <option value="$PROJECT_DIR$/www/js/controllers/main.controller.js" />
       </list>
@@ -248,39 +561,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rssreader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rssreader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rssreader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rssreader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,10 +575,10 @@
     <property name="last_opened_file_path" value="$USER_HOME$/tnmClient" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="FullScreen" value="true" />
     <property name="editor.config.accepted" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -373,12 +654,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462084715698</updated>
-      <workItem from="1462084717443" duration="26262000" />
+      <workItem from="1462084717443" duration="38551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26262000" />
+    <option name="totallyTimeSpent" value="38551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +717,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -465,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services/localstorage.services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/services/http.services.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -480,14 +753,6 @@
           <folding>
             <element signature="e#0#46#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services/list.services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="48" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,14 +765,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commands/npm.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/bash.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -582,14 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/complaints.tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/specs/controller.tests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -605,14 +854,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,20 +883,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/complaints.tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/bash.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="90" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/localstorage.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/list.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/directives/directives.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/feedItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="195">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/data/feeds.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/controllers/main.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="e#566#1101#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -13,7 +13,7 @@ app.service('$localStorage', ['$window', function($window) {
             $window.localStorage[key] = value.toString();
         },
         getObject: function(key) {
-            return JSON.parse($window.localStorage[key] || '{}');
+            return JSON.parse($window.localStorage[key] || '[]');
         },
         delete: function(key) {
             return $window.localStorage.removeItem(key);
