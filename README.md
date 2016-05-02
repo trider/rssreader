@@ -6,6 +6,8 @@ RSS reader created with Angular and Ionic:
 * The right side displays the currently selected RSS feed.
 
 ![](https://dl.dropboxusercontent.com/u/27830241/rssreader/www/img/Screenshot%202016-05-02%2009.17.37.png)
+
+To deploy the project, clone the repo to your PC's local file system. The WWW folder contains the index.html file. The project source code has been commented to indicate interesting solution information.
  
 ## Main screen
 1. Header - showing the URL of the feed
@@ -30,4 +32,10 @@ List of URLs the user viewed
 * The list items should be persistent, should stay on page refresh
 
 ![](https://dl.dropboxusercontent.com/u/27830241/rssreader/www/img/Screenshot%202016-05-02%2009.23.22.png) 
+
+## Links
+* [Deployed site](http://rssreader.pikr.me). This link access the site's static web content via a URL. The static content is deployed from a dropbox folder. 
+* [Project Trello board](https://trello.com/b/pNgWChgV)
+
+ 
 
