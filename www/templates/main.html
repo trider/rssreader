@@ -1,13 +1,13 @@
 <ion-view>
   <ion-header-bar class="bar-stable">
-    <h1 class="title">RSS Reader</h1>
+    <h1 class="title">{{ url }}</h1>
   </ion-header-bar>
   <ion-content>
     <div class="row">
       <div class="col col-33">
         <div class="list">
 
-          <div class="item item-input-inset" ng-init="request.path=url">
+          <div class="item item-input-inset">
             <label class="item-input-wrapper">
               <input
                 ng-model="request.path"
@@ -21,7 +21,7 @@
         <div class="list card" ng-repeat="feed in feedLst | orderBy : '-date'" >
           <div class="item item-body item-button-right"
             ng-click="getFeed(feed, $index)"
-               ng-if="feed.selected" style="background-color: silver">{{feed.title}}
+               ng-if="feed.selected" style="background-color: silver">{{feed.feedUrl}}
             <button class="button button-stable"
               ng-click="remove($index)">
               <i class="icon ion-ios-close-empty"></i>
@@ -29,7 +29,7 @@
           </div>
           <div class="item item-body item-button-right"
                ng-click="getFeed(feed, $index)"
-               ng-if="!feed.selected" >{{feed.title}}
+               ng-if="!feed.selected" >{{feed.feedUrl}}
             <button class="button button-stable"
                     ng-click="remove($index)">
               <i class="icon ion-ios-close-empty"></i>

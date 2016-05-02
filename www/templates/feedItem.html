@@ -1,8 +1,10 @@
+<!--Directive for displaying feed items-->
 <ion-list class="list">
   <ion-item
     class="item item-text-wrap"
     ng-repeat="item in items track by $index">
     <h2>{{item.title}} - {{ item.publishedDate}}</h2>
+    <!--Note ng-bind-html used to feed item content-->
     <span ng-bind-html="item.content"></span>
 
   </ion-item>

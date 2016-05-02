@@ -7,5 +7,8 @@
   },
   "resolutions": {
     "angular": ">= 1.0.8"
+  },
+  "dependencies": {
+    "angular-eha.back-button": "~3.10.1"
   }
 }
