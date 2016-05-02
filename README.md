@@ -3,4 +3,4 @@ RSS Reader Project
 
 RSS reader created with Angular and Ionic.
 
-![RSS Reader](https://www.dropbox.com/s/bas2qkqwhfy20ni/Screenshot%202016-05-02%2009.17.37.png?dl=0)
+![](https://dl.dropboxusercontent.com/u/27830241/rssreader/www/img/Screenshot%202016-05-02%2009.17.37.png)
