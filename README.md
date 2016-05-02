@@ -13,7 +13,7 @@ RSS reader created with Angular and Ionic:
 
 The feed items use a directive that displays the title, date, and body.
 
-![](https://dl.dropboxusercontent.com/u/27830241/rssreader/www/img/Screenshot%202016-05-02%2009.23.22.png)
+![](https://dl.dropboxusercontent.com/u/27830241/rssreader/www/img/Screenshot%202016-05-02%2009.17.38.png)
 
 ## Sidebar
 
@@ -28,3 +28,6 @@ List of URLs the user viewed
 * When browser back button pressed, the page returns to the previous active URL
 * Each item contain an “x” button, that removes it from the list
 * The list items should be persistent, should stay on page refresh
+
+![](https://dl.dropboxusercontent.com/u/27830241/rssreader/www/img/Screenshot%202016-05-02%2009.23.22.png) 
+
