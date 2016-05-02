@@ -1,6 +1,6 @@
 
 app.controller("mainCtrl",
-  function ($scope, $rootScope, $state, $location, $listServices, $httpServices, $localStorage) {
+  function ($scope, $rootScope, $state, $location, $listServices, $httpServices, $localStorage, $stateParams) {
 
     $scope.url = 'RSS Reader';
     
@@ -14,7 +14,7 @@ app.controller("mainCtrl",
         $localStorage.setObject('feedLst', $scope.feedLst);
       }
     }
-    
+
     //Function for adding feed to list
     $scope.submit = function (request) {
       var d = new Date();
@@ -33,7 +33,7 @@ app.controller("mainCtrl",
 
       });
     }
-    
+
     //Function for selecting feed from displayed feed list
     $scope.getFeed = function (feed, $index) {
       $httpServices.getHttpLst($rootScope.baseURL + feed.feedUrl).then(function (data) {
@@ -44,7 +44,7 @@ app.controller("mainCtrl",
         $localStorage.setObject('feedLst', $scope.feedLst);
       });
     }
-    
+
     //Removes feed from list using JS splice function
     $scope.remove = function ($index) {
       $scope.feedLst.splice($index, 1);
