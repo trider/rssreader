@@ -1,37 +1,40 @@
 // Karma configuration
-// Generated on Sun Jul 05 2015 15:03:15 GMT+0300 (IDT)
+// Generated on Tue May 17 2016 13:07:38 GMT+0300 (IDT)
 
 module.exports = function(config) {
   config.set({
 
+    // base path that will be used to resolve all patterns (eg. files, exclude)
+    basePath: '',
 
+
+    // frameworks to use
+    // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     frameworks: ['jasmine'],
-    // list of files / patterns to load in the browser
-//    files: [
-//     '../www/lib/ionic/js/ionic.bundle.js',
-//     '../www/lib/angular-mocks/angular-mocks.js',
-//     '../www/lib/ngCordova/dist/ng-cordova.js',
-//     '../www/lib/ngCordova/dist/ng-cordova-mocks.js',
-//     '../www/js/*.js',
-//     '../www/js/services/*.js',
-//     '../www/js/controllers/*.js',
-//     'data/testdata.js',
-//     'specs/*.js'
-//    ],
 
-//    list of files / patterns to load in the browser
+    // list of files / patterns to load in the browser
     files: [
       '../www/lib/ionic/js/ionic.bundle.js',
-      '../www/lib/angular-mocks/angular-mocks.js',
-      '../www/lib/ngCordova/dist/ng-cordova.js',
-      '../www/lib/ngCordova/dist/ng-cordova-mocks.js',
+      '../www/lib/angular/angular.js',
       '../www/js/*.js',
-      '../www/js/services/*.js',
-      '../www/js/controllers/main.controller.js',
+      '../www/lib/angular-mocks/angular-mocks.js',
       'specs/controller.tests.js'
     ],
 
 
+    // list of files to exclude
+    exclude: [
+    ],
+
+    // preprocess matching files before serving them to the browser
+    // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
+    preprocessors: {
+    },
+
+
+    // test results reporter to use
+    // possible values: 'dots', 'progress'
+    // available reporters: https://npmjs.org/browse/keyword/karma-reporter
     reporters: ['progress'],
 
 
@@ -41,8 +44,6 @@ module.exports = function(config) {
 
     // enable / disable colors in the output (reporters and logs)
     colors: true,
-
-    hostname:'localhost',
 
 
     // level of logging
@@ -61,6 +62,10 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: true
+    singleRun: false,
+
+    // Concurrency level
+    // how many browser should be started simultaneous
+    concurrency: Infinity
   })
 }

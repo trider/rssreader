@@ -2,7 +2,7 @@
  * Created by jonnygold on 01/05/2016.
  */
 //Serives for handling HTTP and rest calls
-app.service('$httpServices', function ($http, $q) {
+app.services.service('$httpServices', function ($http, $q) {
 
   this.getHttpLst = function (path) {
     var deferred = $q.defer();

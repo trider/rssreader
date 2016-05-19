@@ -1,14 +1,21 @@
 
-app.controller("mainCtrl",
-  function ($scope, $rootScope, $state, $location, $listServices, $httpServices, $localStorage, $stateParams) {
+app.controllers.controller("mainCtrl",
+  function ($scope, $rootScope, $state, $location, $listServices, $httpServices, $localStorage) {
 
-    $scope.url = 'RSS Reader';
-    
+    $scope.title = 'RSS Reader';
+    $scope.test ='test';
+
     //Init functionality isolated in function
     $scope.init = function () {
       $scope.feedLst = [];
       if ($rootScope.feedLst !== null) {
         $scope.feedLst = $listServices.selectLstItms($rootScope.feedLst);
+        angular.forEach( $rootScope.feedLst, function (feed, key) {
+           if(feed.selected){
+             $scope.getFeed(feed, 1)
+           }
+
+        });
       }
       else {
         $localStorage.setObject('feedLst', $scope.feedLst);
@@ -17,6 +24,9 @@ app.controller("mainCtrl",
 
     //Function for adding feed to list
     $scope.submit = function (request) {
+
+      $listServices.printLst(request)
+
       var d = new Date();
       $scope.feedLst = $listServices.unselectLstItms($scope.feedLst);
       $httpServices.getHttpLst($rootScope.baseURL + request.path).then(function (data) {
@@ -41,6 +51,7 @@ app.controller("mainCtrl",
         $scope.feedLst = $listServices.unselectLstItms($scope.feedLst)
         feed.selected = true;
         $scope.url = feed.feedUrl;
+        $scope.title = feed.title;
         $localStorage.setObject('feedLst', $scope.feedLst);
       });
     }

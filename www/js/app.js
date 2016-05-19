@@ -1,4 +1,7 @@
-var app = angular.module('app', ['ionic', 'ui.router'])
+var app = angular.module('app', ['ionic', 'ui.router', 'app.controllers','app.services']);
+app.controllers = angular.module('app.controllers', []);
+app.services = angular.module('app.services', []);
+
 
 app.run(
   function ($rootScope, $localStorage, $location, $state ) {
@@ -10,7 +13,7 @@ app.run(
       });
 
     //Base url for Google JSON API
-    $rootScope.baseURL = 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&q=';
+    $rootScope.baseURL = 'https://crossorigin.me/http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&q=';
 
     //Retrieves URLs from local storage
     var feedLst = $localStorage.getObject('feedLst');

@@ -1,5 +1,5 @@
 //Service for perstiting, managing, and retreiving data from local storage.
-app.service('$localStorage', ['$window', function ($window) {
+app.services.service('$localStorage', ['$window', function ($window) {
   return {
     set: function (key, value) {
       $window.localStorage[key] = value;

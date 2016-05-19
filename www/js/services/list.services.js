@@ -1,5 +1,5 @@
 //Service for handling logging and list related functions
-app.service('$listServices', function ($http, $q) {
+app.services.service('$listServices', function ($http, $q) {
 
   this.printLst = function (lst) {
     console.log(JSON.stringify(lst));
